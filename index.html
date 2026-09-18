@@ -1,118 +1,628 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Michael H. Loechel — Composer &amp; Producer</title>
-<meta name="description" content="Michael H. Loechel — composer and producer of cinematic mood pieces blending Lo-Fi Jazz, Ambient, Jazz Hop, and Orchestral textures.">
-<meta property="og:title" content="Michael H. Loechel">
-<meta property="og:description" content="Lo-Fi Jazz, Ambient, Electronic, Techno, World — many moods, no boundaries.">
-<meta property="og:type" content="website">
-<meta property="og:image" content="https://michaelloechel.com/assets/mon-shui-cover.png">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2308090E'/%3E%3Ctext x='32' y='42' font-family='Josefin Sans,Helvetica,sans-serif' font-size='26' font-weight='200' letter-spacing='1' fill='%23E6E1D7' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E">
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&family=DM+Sans:opsz,wght@9..40,300;9..40,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
-<style>*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;color-scheme:dark}body{background:#08090E;color:#E6E1D7;font-family:'DM Sans',system-ui,sans-serif;font-weight:300;font-size:15px;line-height:1.7;-webkit-font-smoothing:antialiased}a{text-decoration:none;color:#C0C4D4}a:hover{color:#EA8040}.navlink{color:#A2A8C2}.navlink:hover{color:#EA8040}.wordmark{color:#E6E1D7}.wordmark:hover{color:#EA8040}.dsp{display:flex;justify-content:space-between;align-items:center;padding:9px 0;border-bottom:1px solid #1E2138}.dsp:last-child{border-bottom:none}.dsp span:first-child{font-size:14px;color:#C0C4D4}.dsp span:last-child{font-size:12px;color:#9AA1BC}.dsp:hover span{color:#EA8040}.plat{display:flex;flex-wrap:wrap;align-items:center;gap:4px 26px;margin-top:30px}.plat a{display:flex;align-items:center;height:44px;color:#C0C4D4;font-family:'DM Mono',monospace;font-size:12px;letter-spacing:0.1em;white-space:nowrap;transition:color .18s}.plat a:hover{color:#EA8040}.label{font-family:'DM Mono',monospace;font-size:11px;letter-spacing:0.12em;color:#EA8040;margin-bottom:28px}.rel{display:grid;grid-template-columns:72px 1fr auto;gap:0 32px;padding:28px 0;border-top:1px solid #1E2138}.rel:last-of-type{border-bottom:1px solid #1E2138}.mono{font-family:'DM Mono',monospace;color:#9AA1BC}#hero{position:relative;padding:168px 0 88px}.hero-grid{display:grid;grid-template-columns:320px 1fr;gap:64px;align-items:center}.hero-photo-wrap{position:relative;aspect-ratio:4/5;overflow:hidden;border-radius:2px;border:1px solid #1E2138}.hero-photo{width:100%;height:100%;object-fit:cover;object-position:50% 20%;filter:grayscale(0.55) contrast(1.08) brightness(0.88)}.hero-photo-wrap::after{content:'';position:absolute;inset:0;background:linear-gradient(160deg,rgba(234,128,64,0.2),rgba(11,13,24,0.65));mix-blend-mode:multiply}@keyframes heroIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}.hero-grid>*{opacity:0;animation:heroIn .9s ease-out forwards}.hero-grid>*:nth-child(2){animation-delay:.12s}#hero-inner>*{opacity:0;animation:heroIn .9s ease-out forwards}#hero-inner>*:nth-child(2){animation-delay:.1s}#hero-inner>*:nth-child(3){animation-delay:.2s}#hero-inner>*:nth-child(4){animation-delay:.3s}#hero-inner>*:nth-child(5){animation-delay:.4s}@media(max-width:760px){.hero-grid{grid-template-columns:1fr!important;gap:32px!important}.hero-photo-wrap{max-width:220px}}#hero-inner>*:nth-child(6){animation-delay:.46s}#hero::after{content:'';position:absolute;inset:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");mix-blend-mode:overlay;pointer-events:none}.modalbg{position:fixed;inset:0;background:rgba(8,9,14,0.82);display:flex;align-items:center;justify-content:center;z-index:50;opacity:0;pointer-events:none;transition:opacity .2s}.modalbg.open{opacity:1;pointer-events:auto}.modal{position:relative;background:#10121E;border:1px solid #1E2138;border-radius:2px;padding:36px 40px;width:min(360px,88vw)}.modal a{display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px solid #1E2138;font-size:14px;color:#C0C4D4}.modal a:last-of-type{border-bottom:none}.modal a:hover{color:#EA8040}.listennow{display:inline-flex;align-items:center;gap:8px;margin-top:26px;padding:12px 20px;border:1px solid #EA8040;color:#EA8040;font-family:'DM Mono',monospace;font-size:11px;letter-spacing:0.1em;background:none;cursor:pointer}.listennow:hover{background:#EA8040;color:#08090E}.modalclose{position:absolute;top:14px;right:16px;background:none;border:none;color:#9AA1BC;font-size:20px;cursor:pointer;line-height:1}.modalclose:hover{color:#EA8040}.cover{width:100%;aspect-ratio:1;object-fit:cover;border-radius:1px;display:block}@media(max-width:760px){#listen-grid{grid-template-columns:1fr!important;gap:32px!important}.wrap{padding:0 24px!important}nav .wrap{padding:20px 24px!important}#hero-inner{padding:0 24px 64px!important}#contact-grid{grid-template-columns:1fr!important;gap:32px!important}.rel{grid-template-columns:56px 1fr!important}.rel .cover{grid-row:1/3}.rel>div:last-child{grid-column:2;text-align:left!important;display:flex;gap:16px;margin-top:10px}}</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Michael H. Loechel — composer and producer of cinematic mood pieces blending Lo-Fi Jazz, Ambient, Jazz Hop, and Orchestral textures.">
+  <meta property="og:title" content="Michael H. Loechel">
+  <meta property="og:description" content="Lo-Fi Jazz, Ambient, Electronic, Techno, World — many moods, no boundaries.">
+  <meta property="og:image" content="https://michaelloechel.com/assets/mon-shui-cover.png">
+  <meta property="og:type" content="website">
+  <title>Michael H. Loechel — Composer &amp; Producer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&family=DM+Sans:ital,wght@0,300;0,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+
+  <style>
+    /* ── TOKENS ──────────────────────────────────────── */
+    :root {
+      color-scheme: dark;
+      --base:      #08090E;
+      --surface:   #131520;
+      --border:    #1E2138;
+      --text:      #E6E1D7;
+      --text-sub:  #C0C4D4;
+      --text-dim:  #7A7E96;
+      --accent:    #EA8040;
+      --scarlet:   #C82A36;
+    }
+
+    /* ── RESET ───────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--base);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; }
+    img { display: block; max-width: 100%; }
+    button { cursor: pointer; }
+
+    /* ── NAV ─────────────────────────────────────────── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.25rem 2.5rem;
+      background: rgba(8, 9, 14, 0.88);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .nav-wordmark {
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      font-size: 0.875rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text);
+      text-decoration: none;
+    }
+    .nav-links {
+      display: flex;
+      gap: 2.5rem;
+    }
+    .nav-links a {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--accent); }
+
+    /* ── LAYOUT WRAPPER ──────────────────────────────── */
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+    }
+
+    /* ── HERO ────────────────────────────────────────── */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 7rem 2.5rem 5rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .hero-inner {
+      display: flex;
+      align-items: center;
+      gap: 4.5rem;
+      width: 100%;
+    }
+    .hero-portrait {
+      flex: 0 0 240px;
+      width: 240px;
+      height: 320px;
+      object-fit: cover;
+      object-position: center top;
+    }
+    .hero-text { flex: 1; }
+    .hero-eyebrow {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+    .hero-name {
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      font-size: clamp(2.2rem, 4.5vw, 3.6rem);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      line-height: 1.05;
+      color: var(--text);
+      margin-bottom: 1.25rem;
+    }
+    .hero-genres {
+      font-size: 0.9rem;
+      color: var(--text-sub);
+      margin-bottom: 2.25rem;
+    }
+    .hero-release {
+      display: flex;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      font-family: 'DM Mono', monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      margin-bottom: 1.5rem;
+    }
+    .hero-release .name { color: var(--text-sub); }
+    .hero-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: 'DM Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      background: var(--accent);
+      color: var(--base);
+      border: none;
+      padding: 0.65rem 1.3rem;
+      transition: background 0.2s, color 0.2s;
+    }
+    .hero-cta:hover {
+      background: var(--text);
+      color: var(--base);
+    }
+
+    /* ── DIVIDER ─────────────────────────────────────── */
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    /* ── SECTIONS ────────────────────────────────────── */
+    .section {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 5rem 2.5rem;
+    }
+    .section-label {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 2.5rem;
+    }
+
+    /* ── ABOUT ───────────────────────────────────────── */
+    .about-body p {
+      color: var(--text-sub);
+      font-size: 0.9375rem;
+      line-height: 1.8;
+      max-width: 600px;
+      margin-bottom: 1.25rem;
+    }
+    .about-body p:last-child { margin-bottom: 0; }
+
+    /* ── LISTEN ──────────────────────────────────────── */
+    .listen-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: start;
+    }
+    .platform-list { display: flex; flex-direction: column; }
+    .platform-link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.875rem 0;
+      border-bottom: 1px solid var(--border);
+      text-decoration: none;
+      color: var(--text-sub);
+      font-size: 0.9375rem;
+      transition: color 0.2s;
+    }
+    .platform-link:first-child { border-top: 1px solid var(--border); }
+    .platform-link:hover { color: var(--accent); }
+    .platform-link .arr { color: var(--text-dim); font-size: 0.8rem; }
+    .listen-note {
+      color: var(--text-dim);
+      font-size: 0.875rem;
+      line-height: 1.7;
+    }
+
+    /* ── RELEASES ────────────────────────────────────── */
+    .release-list { display: flex; flex-direction: column; }
+    .release-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 1.5rem;
+      padding: 1.75rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .release-row:first-child { border-top: 1px solid var(--border); }
+    .release-art {
+      flex: 0 0 72px;
+      width: 72px;
+      height: 72px;
+      object-fit: cover;
+    }
+    .release-info { flex: 1; min-width: 0; }
+    .release-title {
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 200;
+      font-style: normal;
+      font-size: 1.25rem;
+      letter-spacing: 0.08em;
+      color: var(--text);
+      margin-bottom: 0.4rem;
+    }
+    .release-desc {
+      font-size: 0.875rem;
+      color: var(--text-sub);
+      line-height: 1.7;
+      font-weight: 300;
+    }
+    .release-meta {
+      flex: 0 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0.2rem;
+      font-family: 'DM Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      white-space: nowrap;
+      padding-top: 0.15rem;
+    }
+    .release-meta .soon { color: var(--accent); margin-top: 0.3rem; }
+
+    /* ── CONTACT ─────────────────────────────────────── */
+    .contact-note {
+      color: var(--text-sub);
+      font-size: 0.9375rem;
+      margin-bottom: 1.5rem;
+    }
+    .contact-email {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.875rem 0;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      text-decoration: none;
+      color: var(--text-sub);
+      font-size: 0.9375rem;
+      max-width: 440px;
+      transition: color 0.2s;
+    }
+    .contact-email:hover { color: var(--accent); }
+    .contact-email .arr { color: var(--text-dim); font-size: 0.8rem; }
+
+    /* ── FOOTER ──────────────────────────────────────── */
+    footer {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 2.5rem 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .footer-copy {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.62rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+    }
+    .footer-mark {
+      color: var(--text-dim);
+      display: block;
+    }
+
+    /* ── MODAL ───────────────────────────────────────── */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(8, 9, 14, 0.92);
+      z-index: 200;
+      align-items: center;
+      justify-content: center;
+    }
+    .modal-overlay.open { display: flex; }
+    .modal {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 2.25rem 2.5rem;
+      min-width: 300px;
+      max-width: 90vw;
+    }
+    .modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.75rem;
+    }
+    .modal-eyebrow {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+    }
+    .modal-close {
+      background: none;
+      border: none;
+      color: var(--text-dim);
+      font-size: 1.1rem;
+      line-height: 1;
+      padding: 0.2rem 0.4rem;
+      transition: color 0.2s;
+    }
+    .modal-close:hover { color: var(--accent); }
+    .modal-links { display: flex; flex-direction: column; }
+    .modal-link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.85rem 0;
+      border-bottom: 1px solid var(--border);
+      text-decoration: none;
+      color: var(--text-sub);
+      font-size: 0.9375rem;
+      transition: color 0.2s;
+    }
+    .modal-link:first-child { border-top: 1px solid var(--border); }
+    .modal-link:hover { color: var(--accent); }
+    .modal-link .arr { color: var(--text-dim); font-size: 0.8rem; }
+
+    /* ── RESPONSIVE ──────────────────────────────────── */
+    @media (max-width: 720px) {
+      nav { padding: 1rem 1.25rem; }
+      .nav-links { gap: 1.5rem; }
+      .hero { padding: 5.5rem 1.25rem 3.5rem; }
+      .hero-inner { flex-direction: column; gap: 2rem; }
+      .hero-portrait { flex: none; width: 100%; height: 260px; }
+      .section { padding: 3.5rem 1.25rem; }
+      .listen-grid { grid-template-columns: 1fr; gap: 2rem; }
+      footer { padding: 1.5rem 1.25rem 2.5rem; flex-direction: column-reverse; gap: 1rem; align-items: flex-start; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { transition: none !important; }
+      html { scroll-behavior: auto; }
+    }
+  </style>
 </head>
-<body>
-<nav style="position:fixed;top:0;left:0;right:0;z-index:10;background:linear-gradient(to bottom,rgba(8,9,14,0.9),rgba(8,9,14,0))">
-<div class="wrap" style="max-width:1040px;margin:0 auto;padding:24px 48px;display:flex;justify-content:space-between;align-items:center;gap:24px">
-<a class="wordmark" href="#top" style="font-family:'Josefin Sans',sans-serif;font-weight:100;font-size:14px;letter-spacing:0.06em">Michael H. Loechel</a>
-<div style="display:flex;gap:28px;font-family:'DM Mono',monospace;font-size:11px;letter-spacing:0.12em">
-<a class="navlink" href="#about">About</a>
-<a class="navlink" href="#listen">Listen</a>
-<a class="navlink" href="#releases">Releases</a>
-<a class="navlink" href="#contact">Contact</a>
-</div>
-</div>
+
+<body id="top">
+
+<!-- ── NAV ────────────────────────────────────────── -->
+<nav>
+  <a class="nav-wordmark" href="#top">Michael H. Loechel</a>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#listen">Listen</a>
+    <a href="#releases">Releases</a>
+    <a href="#contact">Contact</a>
+  </div>
 </nav>
-<section id="hero">
-<a id="top"></a>
-<div class="wrap hero-grid" style="max-width:1040px;margin:0 auto;padding:0 48px">
-<div class="hero-photo-wrap">
-<img class="hero-photo" src="assets/portrait.jpg" alt="Portrait of Michael H. Loechel">
+
+<!-- ── HERO ───────────────────────────────────────── -->
+<div class="hero">
+  <div class="hero-inner">
+    <img
+      class="hero-portrait"
+      src="assets/portrait.jpg"
+      alt="Portrait of Michael H. Loechel"
+    >
+    <div class="hero-text">
+      <div class="hero-eyebrow">Composer &amp; Producer</div>
+      <h1 class="hero-name">Michael H.&nbsp;Loechel</h1>
+      <p class="hero-genres">Lo-Fi Jazz, Ambient, Electronic, Techno, World — many moods, no boundaries.</p>
+      <div class="hero-release">
+        <span class="name">Mon Shui</span>
+        <span>·</span>
+        <span>Single</span>
+        <span>·</span>
+        <span>3:31</span>
+        <span>·</span>
+        <span>2026</span>
+      </div>
+      <button
+        class="hero-cta"
+        onclick="document.getElementById('modal').classList.add('open')"
+        aria-haspopup="dialog"
+      >
+        LISTEN NOW ↗
+      </button>
+    </div>
+  </div>
 </div>
-<div id="hero-inner">
-<div style="font-family:'DM Mono',monospace;font-size:11px;letter-spacing:0.12em;color:#EA8040;margin-bottom:16px">Composer &amp; Producer</div>
-<h1 style="font-family:'Josefin Sans',sans-serif;font-weight:100;font-size:clamp(30px,4.2vw,64px);letter-spacing:0.03em;line-height:1.05;color:#E6E1D7;margin-bottom:16px">Michael H. Loechel</h1>
-<div style="font-size:17px;color:#C0C4D4;max-width:52ch">Lo-Fi Jazz, Ambient, Electronic, Techno, World — many moods, no boundaries.</div>
-<div class="mono" style="font-size:11px;letter-spacing:0.06em;margin-top:22px">Mon Shui &nbsp; Single &nbsp; 3:31 &nbsp; 2026</div>
-<button class="listennow" onclick="document.getElementById('listenModal').classList.add('open')">LISTEN NOW ↗</button>
+
+<!-- ── LISTEN MODAL ───────────────────────────────── -->
+<div
+  class="modal-overlay"
+  id="modal"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Listen on streaming platforms"
+  onclick="if(event.target===this)this.classList.remove('open')"
+>
+  <div class="modal">
+    <div class="modal-header">
+      <span class="modal-eyebrow">Listen on</span>
+      <button
+        class="modal-close"
+        onclick="document.getElementById('modal').classList.remove('open')"
+        aria-label="Close"
+      >×</button>
+    </div>
+    <div class="modal-links">
+      <a class="modal-link" href="https://tidal.com/artist/84668411" target="_blank" rel="noopener">
+        Tidal <span class="arr">↗</span>
+      </a>
+      <a class="modal-link" href="https://open.spotify.com/artist/2Js5HXSsokuLLdqwQyaP4l" target="_blank" rel="noopener">
+        Spotify <span class="arr">↗</span>
+      </a>
+      <a class="modal-link" href="https://music.youtube.com/channel/UCzE_lzc34btvBPqri-1EB7w" target="_blank" rel="noopener">
+        YouTube Music <span class="arr">↗</span>
+      </a>
+      <a class="modal-link" href="https://music.amazon.com/artists/B0HFTSKB4N/michael-h-loechel" target="_blank" rel="noopener">
+        Amazon Music <span class="arr">↗</span>
+      </a>
+      <a class="modal-link" href="https://music.apple.com/us/artist/michael-h-loechel/6803245976" target="_blank" rel="noopener">
+        Apple Music <span class="arr">↗</span>
+      </a>
+      <a class="modal-link" href="https://www.deezer.com/us/artist/411321802" target="_blank" rel="noopener">
+        Deezer <span class="arr">↗</span>
+      </a>
+      <a class="modal-link" href="https://open.qobuz.com/artist/35263608" target="_blank" rel="noopener">
+        Qobuz <span class="arr">↗</span>
+      </a>
+    </div>
+  </div>
 </div>
-</div>
+
+<hr class="divider">
+
+<!-- ── ABOUT ──────────────────────────────────────── -->
+<section class="section" id="about">
+  <div class="section-label">About</div>
+  <div class="about-body">
+    <p>Music has been my primary language since I was three years old. A multi-instrumentalist with roots in classical and jazz saxophone, I explore the textures of piano, drums, trombone, and deeper saxophone voices. My grandfather scored silent films — a legacy that shaped my love for atmospheric storytelling.</p>
+    <p>I blend Lo-Fi Jazz with Ambient, Jazz Hop, Orchestral, and electronic textures to craft cinematic mood pieces. Travel and personal moments, especially those shared with my wife Julia, fuel my compositions.</p>
+    <p>Each piece explores soundscapes where technical study meets lifelong curiosity — where memory, place, and feeling become sound.</p>
+  </div>
 </section>
-<div id="listenModal" class="modalbg" onclick="if(event.target===this)this.classList.remove('open')">
-<div class="modal">
-<button class="modalclose" aria-label="Close" onclick="document.getElementById('listenModal').classList.remove('open')">×</button>
-<div class="label" style="margin-bottom:18px">Listen on</div>
-<a href="https://tidal.com/artist/84668411" target="_blank" rel="noopener">Tidal <span>↗</span></a>
-<a href="https://open.spotify.com/artist/2Js5HXSsokuLLdqwQyaP4l" target="_blank" rel="noopener">Spotify <span>↗</span></a>
-<a href="https://music.youtube.com/channel/UCzE_lzc34btvBPqri-1EB7w" target="_blank" rel="noopener">YouTube Music <span>↗</span></a>
-<a href="https://music.amazon.com/artists/B0HFTSKB4N/michael-h-loechel" target="_blank" rel="noopener">Amazon Music <span>↗</span></a>
-<a href="https://music.apple.com/us/artist/michael-h-loechel/6803245976" target="_blank" rel="noopener">Apple Music <span>↗</span></a>
-<a href="https://www.deezer.com/us/artist/411321802" target="_blank" rel="noopener">Deezer <span>↗</span></a>
-<a href="https://open.qobuz.com/artist/35263608" target="_blank" rel="noopener">Qobuz <span>↗</span></a>
-</div>
-</div>
-<div class="wrap" style="max-width:1040px;margin:0 auto;padding:0 48px">
-<section id="about" style="padding:72px 0;border-bottom:1px solid #1E2138">
-<div class="label">About</div>
-<p style="font-size:17px;line-height:1.8;color:#E6E1D7;max-width:58ch;text-wrap:pretty;margin-bottom:20px">Music has been my primary language since I was three years old. A multi-instrumentalist with roots in classical and jazz saxophone, I explore the textures of piano, drums, trombone, and deeper saxophone voices. My grandfather scored silent films — a legacy that shaped my love for atmospheric storytelling.</p>
-<p style="font-size:15px;line-height:1.7;color:#C0C4D4;max-width:58ch;text-wrap:pretty;margin-bottom:16px">I blend Lo-Fi Jazz with Ambient, Jazz Hop, Orchestral, and electronic textures to craft cinematic mood pieces. Travel and personal moments, especially those shared with my wife Julia, fuel my compositions.</p>
-<p style="font-size:15px;line-height:1.7;color:#C0C4D4;max-width:58ch;text-wrap:pretty">Each piece explores soundscapes where technical study meets lifelong curiosity — where memory, place, and feeling become sound.</p>
+
+<hr class="divider">
+
+<!-- ── LISTEN ─────────────────────────────────────── -->
+<section class="section" id="listen">
+  <div class="section-label">Listen</div>
+  <div class="listen-grid">
+    <div class="platform-list">
+      <a class="platform-link" href="https://tidal.com/album/553893648" target="_blank" rel="noopener">
+        Tidal <span class="arr">↗</span>
+      </a>
+      <a class="platform-link" href="https://open.spotify.com/album/2acVSTcHKSAGeQRJebBZWY" target="_blank" rel="noopener">
+        Spotify <span class="arr">↗</span>
+      </a>
+      <a class="platform-link" href="https://music.youtube.com/playlist?list=OLAK5uy_n2UyO8-B0AwXBi2pMl16Nt-eOrB7Qe_OA" target="_blank" rel="noopener">
+        YouTube Music <span class="arr">↗</span>
+      </a>
+      <a class="platform-link" href="https://music.amazon.com/albums/B0HFTKQS1H" target="_blank" rel="noopener">
+        Amazon Music <span class="arr">↗</span>
+      </a>
+      <a class="platform-link" href="https://music.apple.com/us/album/6803246243" target="_blank" rel="noopener">
+        Apple Music <span class="arr">↗</span>
+      </a>
+      <a class="platform-link" href="https://www.deezer.com/album/1058357832" target="_blank" rel="noopener">
+        Deezer <span class="arr">↗</span>
+      </a>
+      <a class="platform-link" href="https://open.qobuz.com/album/zbtj2tx0ncpsy" target="_blank" rel="noopener">
+        Qobuz <span class="arr">↗</span>
+      </a>
+    </div>
+    <p class="listen-note">
+      These go direct to the release. "Listen Now" in the hero opens the full artist profile on each platform. There is no player here by design.
+    </p>
+  </div>
 </section>
-<section id="listen" style="padding:72px 0;border-bottom:1px solid #1E2138">
-<div class="label">Listen</div>
-<div id="listen-grid" style="display:grid;grid-template-columns:260px 1fr;gap:64px;align-items:start">
-<div>
-<a class="dsp" href="https://tidal.com/album/553893648" target="_blank" rel="noopener"><span>Tidal</span><span>↗</span></a>
-<a class="dsp" href="https://open.spotify.com/album/2acVSTcHKSAGeQRJebBZWY" target="_blank" rel="noopener"><span>Spotify</span><span>↗</span></a>
-<a class="dsp" href="https://music.youtube.com/playlist?list=OLAK5uy_n2UyO8-B0AwXBi2pMl16Nt-eOrB7Qe_OA" target="_blank" rel="noopener"><span>YouTube Music</span><span>↗</span></a>
-<a class="dsp" href="https://music.amazon.com/albums/B0HFTKQS1H" target="_blank" rel="noopener"><span>Amazon Music</span><span>↗</span></a>
-<a class="dsp" href="https://music.apple.com/us/album/6803246243" target="_blank" rel="noopener"><span>Apple Music</span><span>↗</span></a>
-<a class="dsp" href="https://www.deezer.com/album/1058357832" target="_blank" rel="noopener"><span>Deezer</span><span>↗</span></a>
-<a class="dsp" href="https://open.qobuz.com/album/zbtj2tx0ncpsy" target="_blank" rel="noopener"><span>Qobuz</span><span>↗</span></a>
-</div>
-<p style="font-size:14px;line-height:1.7;color:#C0C4D4;max-width:44ch;text-wrap:pretty">These go direct to the release. "Listen Now" in the hero opens the full artist profile on each platform. There is no player here by design.</p>
-</div>
+
+<hr class="divider">
+
+<!-- ── RELEASES ───────────────────────────────────── -->
+<section class="section" id="releases">
+  <div class="section-label">Releases</div>
+  <div class="release-list">
+
+    <!-- Solstice ↓ NEW -->
+    <div class="release-row">
+      <img
+        class="release-art"
+        src="assets/solstice-cover.png"
+        alt="Solstice single cover art — a figure watching the sun set over the ocean from a ship's deck"
+      >
+      <div class="release-info">
+        <div class="release-title">Solstice</div>
+        <p class="release-desc">The moment when summer holds its breath. A smooth jazz composition built around saxophone and piano — the long, warm light before it turns.</p>
+      </div>
+      <div class="release-meta">
+        <span>Single</span>
+        <span>3:15</span>
+        <span class="soon">Coming Soon</span>
+      </div>
+    </div>
+
+    <!-- Mon Shui -->
+    <div class="release-row">
+      <img
+        class="release-art"
+        src="assets/mon-shui-cover.png"
+        alt="Mon Shui single cover art — an illustrated woman reading by candlelight on a Paris balcony with the Eiffel Tower lit in the background"
+      >
+      <div class="release-info">
+        <div class="release-title">Mon Shui</div>
+        <p class="release-desc">A late-night conversation between piano and upright bass. Named for a fusion of mon chéri and shui — the Chinese word for water. Born from a quiet evening in Paris with Julia.</p>
+      </div>
+      <div class="release-meta">
+        <span>Single</span>
+        <span>3:31</span>
+      </div>
+    </div>
+
+    <!-- Shadow Drift -->
+    <div class="release-row">
+      <img
+        class="release-art"
+        src="assets/shadow-drift-cover.png"
+        alt="Shadow Drift single cover art — a dark sphere wrapped in glowing red wisps against a night-blue background"
+      >
+      <div class="release-info">
+        <div class="release-title">Shadow Drift</div>
+        <p class="release-desc">Inspired by the phenomenon of a Blood Moon — the eerie stillness before eclipse giving way to the wonder that arrives at the peak.</p>
+      </div>
+      <div class="release-meta">
+        <span>Single</span>
+        <span>3:20</span>
+      </div>
+    </div>
+
+  </div>
 </section>
-<section id="releases" style="padding:72px 0;border-bottom:1px solid #1E2138">
-<div class="label">Releases</div>
-<div class="rel" style="grid-template-columns:96px 1fr auto">
-<img class="cover" src="assets/mon-shui-cover.png" alt="Mon Shui single cover art — an illustrated woman reading by candlelight on a Paris balcony with the Eiffel Tower lit in the background">
-<div>
-<div style="font-family:'Josefin Sans',sans-serif;font-weight:200;font-size:26px;letter-spacing:0.03em;line-height:1.2;color:#E6E1D7;margin-bottom:6px">Mon Shui</div>
-<div style="font-size:14px;line-height:1.65;color:#C0C4D4;max-width:48ch">A late-night conversation between piano and upright bass. Named for a fusion of mon chéri and shui — the Chinese word for water. Born from a quiet evening in Paris with Julia.</div>
-</div>
-<div style="text-align:right;padding-top:4px">
-<div class="mono" style="font-size:11px;letter-spacing:0.06em">Single</div>
-<div class="mono" style="font-size:12px;margin-top:3px">3:31</div>
-</div>
-</div>
-<div class="rel" style="grid-template-columns:96px 1fr auto">
-<img class="cover" src="assets/shadow-drift-cover.png" alt="Shadow Drift single cover art — a dark sphere wrapped in glowing red wisps against a night-blue background">
-<div>
-<div style="font-family:'Josefin Sans',sans-serif;font-weight:200;font-size:26px;letter-spacing:0.03em;line-height:1.2;color:#E6E1D7;margin-bottom:6px">Shadow Drift</div>
-<div style="font-size:14px;line-height:1.65;color:#C0C4D4;max-width:48ch">Inspired by the phenomenon of a Blood Moon — the eerie stillness before eclipse giving way to the wonder that arrives at the peak.</div>
-</div>
-<div style="text-align:right;padding-top:4px">
-<div class="mono" style="font-size:11px;letter-spacing:0.06em">Single</div>
-<div class="mono" style="font-size:12px;margin-top:3px">3:20</div>
-</div>
-</div>
+
+<hr class="divider">
+
+<!-- ── CONTACT ────────────────────────────────────── -->
+<section class="section" id="contact">
+  <div class="section-label">Contact</div>
+  <p class="contact-note">For licensing, sync, and collaboration enquiries.</p>
+  <a class="contact-email" href="mailto:hello@michaelloechel.com">
+    hello@michaelloechel.com <span class="arr">↗</span>
+  </a>
 </section>
-<footer id="contact" style="padding:72px 0 96px">
-<div class="label">Contact</div>
-<div id="contact-grid" style="display:grid;grid-template-columns:1fr auto;gap:48px;align-items:end">
-<div>
-<p style="font-size:15px;line-height:1.7;color:#C0C4D4;max-width:58ch;margin-bottom:16px">For licensing, sync, and collaboration enquiries.</p>
-<a href="mailto:hello@michaelloechel.com" style="display:flex;justify-content:space-between;align-items:center;max-width:260px;padding:9px 0;border-top:1px solid #1E2138;border-bottom:1px solid #1E2138;font-size:14px">hello@michaelloechel.com <span style="font-size:12px;color:#9AA1BC">↗</span></a>
-</div>
-<div style="display:flex;flex-direction:column;align-items:flex-end;gap:12px">
-<div style="width:64px;height:44px;display:flex;align-items:center;justify-content:center;color:#E6E1D7"><svg viewBox="0 0 190 60" width="68" height="21" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><path d="M4 52V8L26 34 48 8V52M48 30H98M98 8V52H140"/></svg></div>
-<div class="mono" style="font-size:11px;letter-spacing:0.06em">© 2026 Michael H. Loechel</div>
-</div>
-</div>
+
+<!-- ── FOOTER ─────────────────────────────────────── -->
+<footer>
+  <span class="footer-copy">© 2026 Michael H. Loechel</span>
+  <svg class="footer-mark" viewBox="0 0 190 60" width="68" height="21"
+       fill="none" stroke="currentColor" stroke-width="2.5"
+       stroke-linejoin="round" stroke-linecap="round" aria-label="MHL">
+    <path d="M4 52V8L26 34 48 8V52M48 30H98M98 8V52H140"/>
+  </svg>
 </footer>
-</div>
+
+<script>
+  // Close modal on Escape key
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      document.getElementById('modal').classList.remove('open');
+    }
+  });
+</script>
+
 </body>
 </html>
